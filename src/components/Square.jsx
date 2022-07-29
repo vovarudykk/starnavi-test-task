@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import ModeContext from "../Store/ModeContext";
+import ModeContext from "../store/ModeContext";
 
 const Square = (props) => {
   const mode = useContext(ModeContext);

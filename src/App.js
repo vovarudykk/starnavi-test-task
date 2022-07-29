@@ -4,7 +4,7 @@ import ListPickedSquares from "./components/ListPickedSquares";
 import ListSquares from "./components/ListSquares";
 import fetchPresets from "./fetch/fetchPresets";
 import useAsync from "./hooks/useAsync";
-import ModeContext from "./Store/ModeContext";
+import ModeContext from "./store/ModeContext";
 
 function App() {
   //useAsync for handle fetch status, value and errors
